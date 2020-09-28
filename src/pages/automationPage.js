@@ -1,5 +1,8 @@
 import React from 'react';
 
+/**
+ * 
+ */
 export const AutomationPage = () => {
 
     return (
@@ -7,7 +10,7 @@ export const AutomationPage = () => {
             <div className="row">
                 <div className="col-sm-12">
 
-                    <label htmlFor="myInput">Projects</label>
+                    <label htmlFor="projects">Projects</label>
                     <form>
                         <div className="radio">
                             <label>
@@ -23,10 +26,19 @@ export const AutomationPage = () => {
                         </div>
                     </form>
 
+                    <hr></hr>
 
-                    <button onClick="generateProject()">
+                    <label htmlFor="add_dependencies">Add Dependencies</label>
+                    <form>
+                        <input type="text" name="dependency_text_box" style={{ width: "370px" }} />
+                    </form>
+
+                    <hr></hr>
+
+                    {/* <button onClick="generateProject()">
                         Generate Project
-                    </button>
+                    </button> */}
+
 
                     <a href="path_to_file" download="proposed_file_name">Generate Project</a>
                 </div>

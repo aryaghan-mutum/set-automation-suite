@@ -7,7 +7,7 @@ export const Header = () => {
     return (
         <header className="App-header">
             <p>
-                Select Automation Suites
+                Set Automation Suites
             </p>
         </header>
     );

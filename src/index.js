@@ -4,14 +4,12 @@ import './styles/index.css';
 import {App} from './App';
 import * as serviceWorker from './serviceWorker';
 import {Header} from './components/header';
-import {Footer} from './components/footer';
 import {AutomationPage} from './pages/automationPage';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <AutomationPage />
-    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
