@@ -1,23 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Select Automation Suites
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <label htmlFor="myInput">Projects</label>
+        <div className="radio">
+          <label>
+            <input type="radio" value="cypressIO" checked={true} />
+          CypressIO
+        </label>
+        </div>
+        <div className="radio">
+          <label>
+            <input type="radio" value="protractor" checked={true} />
+          Protractor
+        </label>
+        </div>
+
+        <button onClick="generateProject()">
+          Generate Projects
+        </button>  
+
+        <a href="path_to_file" download="proposed_file_name">Generate Project</a>
       </header>
     </div>
   );
