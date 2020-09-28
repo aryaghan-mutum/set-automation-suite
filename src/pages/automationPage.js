@@ -28,6 +28,13 @@ export const AutomationPage = () => {
 
                     <hr></hr>
 
+                    <label htmlFor="project_name">Project Name</label>
+                    <form>
+                        <input type="text" name="project_name_text_box" style={{ width: "200px" }}/>
+                    </form>
+
+                    <hr></hr>
+
                     <label htmlFor="add_dependencies">Add Dependencies</label>
                     <form>
                         <input type="text" name="dependency_text_box" style={{ width: "370px" }} />
