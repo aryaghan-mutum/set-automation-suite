@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AutomationPage() {
+export const AutomationPage = () => {
 
     return (
         <div className="container">
@@ -35,6 +35,3 @@ function AutomationPage() {
     );
 
 }
-
-export default AutomationPage;
-
