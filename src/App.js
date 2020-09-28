@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+//import React, { Component } from 'react';
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
-
         <p>
           Select Automation Suites
         </p>
@@ -30,6 +31,10 @@ function App() {
 
         <a href="path_to_file" download="proposed_file_name">Generate Project</a>
       </header>
+
+      <footer>
+        
+      </footer>
     </div>
   );
 }
