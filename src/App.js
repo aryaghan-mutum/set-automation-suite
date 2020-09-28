@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+
 function App() {
   
   return (
@@ -31,9 +32,6 @@ function App() {
         <a href="path_to_file" download="proposed_file_name">Generate Project</a>
       </header>
 
-      <footer>
-        
-      </footer>
     </div>
   );
 }

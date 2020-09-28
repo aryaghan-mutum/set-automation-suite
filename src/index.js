@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Header from './components/header';
+import Footer from './components/footer';
+import AutomationPage from './components/automationPage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <AutomationPage />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
