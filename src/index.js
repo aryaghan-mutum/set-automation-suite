@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Header from './components/header';
 import Footer from './components/footer';
-import AutomationPage from './components/automationPage';
+import AutomationPage from './pages/automationPage';
 
 ReactDOM.render(
   <React.StrictMode>
