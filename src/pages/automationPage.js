@@ -42,12 +42,11 @@ export const AutomationPage = () => {
 
                     <hr></hr>
 
-                    {/* <button onClick="generateProject()">
-                        Generate Project
-                    </button> */}
+                    <a href="demo-suite" download>
+                        <button>Generate Project</button>
+                    </a>
 
-
-                    <a href="path_to_file" download="proposed_file_name">Generate Project</a>
+                    {/* <a href={} download="my-file.pdf"> Generate Project2 </a> */}
                 </div>
             </div>
         </div>
