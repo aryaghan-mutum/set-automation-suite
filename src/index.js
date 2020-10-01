@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import {Header} from './components/header';
 import {AutomationPage} from './pages/automationPage';
 
-ReactDOM.render(
+ReactDOM.hydrate(
   <React.StrictMode>
     <Header />
     <AutomationPage />
