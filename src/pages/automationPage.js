@@ -1,5 +1,5 @@
 import React from 'react';
-
+import cypressData from '../data/cypress-suite.zip';
 /**
  * 
  */
@@ -46,7 +46,10 @@ export const AutomationPage = () => {
                         <button>Generate Project</button>
                     </a>
 
-                    {/* <a href={} download="my-file.pdf"> Generate Project2 </a> */}
+                    <a href={cypressData} download="cypress-demo"> 
+                        <button>Generate Project 2</button>
+                    </a> 
+
                 </div>
             </div>
         </div>
