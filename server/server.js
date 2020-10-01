@@ -1,11 +1,9 @@
-import express from "express";
+import express from 'express';
 import fs from "fs";
 import path from "path";
-
-import React from "react";
-import ReactDOMServer from "react-dom/server";
-
-import App from "../src/App";
+import React from 'react';
+import ReactDOMServer from 'react-dom/server';
+import {AutomationPage} from '../src/pages/automationPage';
 
 const PORT = 8000;
 
@@ -20,7 +18,7 @@ app.use("^/$", (req, res, next) => {
     return res.send(
       data.replace(
         '<div id="root"></div>',
-        `<div id="root">${ReactDOMServer.renderToString(<App />)}</div>`
+        `<div id="root">${ReactDOMServer.renderToString(<AutomationPage />)}</div>`
       )
     );
   });
